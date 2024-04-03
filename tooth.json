@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/Dofes/FuckCursorItemDump-release",
+    "version": "0.0.1",
+    "info": {
+        "name": "FuckCursorItemDump",
+        "description": "A single moudule part of LeviAntiCheat",
+        "author": "Dofes",
+        "tags": [
+            "levilamina",
+            "plugin"
+        ]
+    },
+    "asset_url": "https://github.com/Dofes/FuckCursorItemDump-release/releases/download/v0.0.1/FuckCursorItemDump-windows-x64.zip",
+    "prerequisites": {
+        "github.com/LiteLDev/LeviLamina": ">=0.10.2"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "FuckCursorItemDump/*",
+                "dest": "plugins/FuckCursorItemDump/"
+            }
+        ]
+    }
+}
